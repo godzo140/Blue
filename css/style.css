@@ -1,0 +1,269 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E5E5E5;
+    font-family: 'Rubik';
+}
+
+.header__aside{
+    width: 100px;
+    height: 100vh;
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.header__aside:hover{
+    width: 234px;
+    background-image: url(../img/blue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .2s linear;
+}
+
+.chart{
+    color: #3FA5D5;
+    font-size: 60px;
+}
+
+.header__list li{
+    margin-top: 60px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__link i:hover, span:hover{
+    color: red;
+}
+
+.header__link a{
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: #939393;
+}
+
+.header__list i{
+    color: #939393;
+    font-size: 40px;
+    width: 60px;
+    margin-left: 30px;
+    transition: .2s linear;
+}
+
+.header__aside:hover .header__list i{
+    margin-left: 0px;
+    transition: .2s linear;
+}
+
+/* === header finished === */
+
+/* === main starts === */
+
+main{
+    padding-top: 30px;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main__content{
+    height: 500px;
+    background: white;
+    background-image: url(../img/main__ava.png);
+    border-radius: 14px;
+    padding: 60px;
+}
+
+.main__content h1{
+    width: 332px;
+    color: #464748;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main__content p{
+    color: #696868;
+    font-size: 19px;
+    font-weight: normal;
+    width: 314px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main__content button{
+    width: 211px;
+    height: 33px;
+    background: #3FA5D5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .2s linear; 
+    cursor: pointer;
+}
+
+.main__content button:hover{
+    box-shadow: 0px 0px 10px black;
+    font-size: 18px;
+    transition: .2s linear;
+}
+
+/* === main__content finished === */
+
+/* === main__info fight === */
+
+.main__info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__block{
+    width: 255px;
+    height: 338px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__block h1{
+    color: #2A86B1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main__block i{
+    color: #3FA5D5;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.main__block button{
+    width: 220px;
+    height: 33px;
+    color: white;
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: .2s ease-out;
+}
+
+.main__block button:hover{
+    color: white;
+    box-shadow: 0px 0px 20px #3FA5D5;
+    text-shadow: 0px 0px 10px white;
+    transition: .2s ease-in-out;
+}
+
+/* === main__info finished === */
+
+/* === information figth === */
+
+.information{
+    margin-top: 50px;
+}
+
+.lorem__content{
+    display: flex;
+}
+
+.lorem__txt{
+    color: #686868;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.lorem__title{
+    width: 825px;
+    background: white;
+    color: #545454;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.lorem__dolor-block{
+    width: 255px;
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-left: 30px;
+}
+
+.lorem__dolor-block img{
+    margin-right: 5px;
+}
+
+/* === main finished === */
+
+/* === footer starts ==== */
+
+.footer{
+    height: 140px;
+    background: #3FA5D5;
+    display: flex;
+    align-items: center;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__content h1{
+    color: white;
+    font-size: 50px;
+}
+
+.footer__content-text p{
+    color: white;
+    font-size: 18px;
+}
+
+.footer__content-tel{
+    margin-bottom: 15px;
+}
